@@ -1,0 +1,7 @@
+zapytac uzytkownika ile liczb wypisac
+zapisujecie to do zmiennej
+wypisujecie od 1 do liczby ktora podal uzytkownik
+uzywamy petli while
+
+dodatkowe:
+jesli uzytkownik poda liczbe mniejsza od 1, pytaj go o liczbe ponownie, tak dlugo az poda 1 albo wiecej
