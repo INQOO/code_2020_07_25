@@ -1,6 +1,6 @@
 /*package com.inqoo.loops;
 
-public class WeekDaysSwitch2 {
+public class WeekDaysSwitch3 {
 
     public static void main(String[] args) {
         String dzienTygodnia = getDayOfWeek(1);
@@ -33,8 +33,8 @@ public class WeekDaysSwitch2 {
             /*case 4: System.out.println("Czwartek"); break;
             case 5: System.out.println("Piatek"); break;
             case 6: System.out.println("Sobota"); break;
-            case 7: System.out.println("Niedziela"); break;*/
-           /* default: throw new IllegalArgumentException("Eee, mamy tylko 7 dni tygodnia!");
+            case 7: System.out.println("Niedziela"); break;*/ /*
+            default: throw new IllegalArgumentException("Eee, mamy tylko 7 dni tygodnia!");
         }
     }
 }
