@@ -23,7 +23,7 @@ public class Zadanie {
 
         System.out.println("Podaj słowo: ");
         Scanner scanner = new Scanner(System.in);
-        String word = scanner.next();
+        String word = scanner.nextLine();
 
         System.out.println("Podaj numer operacji od 1 do 5: ");
         int choosenOption = scanner.nextInt();
@@ -40,7 +40,14 @@ public class Zadanie {
                 System.out.println("'" + word.strip() + "'");
                 break;
             case 4:
-                System.out.println(word.isBlank());
+                boolean correct = word.isBlank();
+                if (correct) {
+                    System.out.println("Słowo jest puste");
+                }
+                else {
+                        System.out.println("Słowo nie jest puste");
+                    }
+
                 break;
             case 5:
                 System.out.println("Podaj ile liczb mam wypisać: ");
