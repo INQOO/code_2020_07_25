@@ -7,6 +7,9 @@ interface Computation {
     double compute(double argument1, double argument2);
 
     default void printNumber(double number) {
-        System.out.println(String.format("And the number is...%f", number));
+        System.out.println(number);
     }
+
+    void printPI();
+
 }
